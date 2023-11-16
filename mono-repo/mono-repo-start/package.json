@@ -1,0 +1,6 @@
+{
+    "name": "mono-repo-init",
+    "workspaces":[
+        "packages/*"
+    ]
+}
