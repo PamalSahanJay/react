@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.4.2"
+  },
+  "scripts": {
+    "test": "echo testing main",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  }
+}

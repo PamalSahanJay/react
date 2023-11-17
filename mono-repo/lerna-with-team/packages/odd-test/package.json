@@ -1,0 +1,28 @@
+{
+  "name": "odd-test",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "psahan <psahan@wiley.com>",
+  "homepage": "https://github.com/PamalSahanJay/react#readme",
+  "license": "ISC",
+  "main": "dist/odd-test.js",
+  "types": "dist/odd-test.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PamalSahanJay/react.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "lerna run build --scope=odd-test && jest"
+  },
+  "bugs": {
+    "url": "https://github.com/PamalSahanJay/react/issues"
+  }
+}

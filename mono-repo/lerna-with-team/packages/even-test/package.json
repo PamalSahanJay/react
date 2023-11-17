@@ -1,0 +1,26 @@
+{
+  "name": "even-test",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "psahan <psahan@wiley.com>",
+  "homepage": "https://github.com/PamalSahanJay/react#readme",
+  "license": "ISC",
+  "main": "lib/even-test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PamalSahanJay/react.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/even-test.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/PamalSahanJay/react/issues"
+  }
+}

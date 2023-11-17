@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+**/node_modules
+
+# app
+**/coverage
+
+# reports
+**/.nyc_output
+reports
+report*.json
+
+# qe
+**/.auth/*.json
+**/test-results/
+**/playwright-report/
+**/playwright/.cache/
+
+# production
+**/ui/build
+
+# misc
+.idea
+.history
+.vscode
+*.iml
+*.log
+.eslintcache
